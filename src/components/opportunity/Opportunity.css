@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+.opportunities{
+        display: flex;
+        flex-direction: row;
+}
+.h{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-family: cursive,sans-serif,serif,Arial, Helvetica, sans-serif;
+}

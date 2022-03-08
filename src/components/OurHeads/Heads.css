@@ -1,0 +1,19 @@
+.heading{
+ text-align: center;    
+}
+.heading h1{
+ font-size: 4rem;
+ font-weight: 700;  
+ margin-top: 2rem;  
+}
+.Heads{
+    display: flex;
+
+    justify-content: space-evenly;
+
+    }
+    @media only screen and (max-width: 725px){
+        .Heads{
+            flex-direction: column;
+            }
+    }
