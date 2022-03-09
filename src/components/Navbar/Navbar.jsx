@@ -28,16 +28,16 @@ export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box>
-            <Flex
-                bg={useColorModeValue('white', 'gray.800')}
-                color={useColorModeValue('gray.600', 'white')}
-                minH={'60px'}
-                py={{ base: 2 }}
+        <Box  >
+            <Flex className='navbar'
+                // bg={useColorModeValue('', 'gray.800')}
+                color={useColorModeValue('white.600', 'white')}
+                minH={'80px'}
+                py={{ base: 4 }}
                 px={{ base: 4 }}
-                borderBottom={1}
-                borderStyle={'solid'}
-                borderColor={useColorModeValue('gray.200', 'gray.900')}
+                // borderBottom={1}
+                // borderStyle={'solid'}
+                // borderColor={useColorModeValue('White.200', 'White.900')}
                 align={'center'}>
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
@@ -234,6 +234,11 @@ interface NavItem {
 }
 
 const NAV_ITEMS: Array<NavItem> = [
+    
+    {
+        label: 'Home',
+        href: '/',
+    },
     {
         label: 'Services',
         children: [

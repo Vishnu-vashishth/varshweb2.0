@@ -1,3 +1,6 @@
+import AOS  from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 import {
   Avatar,
   Box,
@@ -64,9 +67,20 @@ interface TestimonialCardProps {
 }
 
 function TestmonialCard(props: TestimonialCardProps) {
+
+  useEffect(() => {
+    AOS.init({
+   offset: 100,
+   duration: 600,
+   // easing: 'ease-in-sine',
+   delay:50,
+  });
+  AOS.refresh();
+  
+  }, []);
   const { name, role, content, avatar, index } = props;
   return (
-    <Flex
+    <Flex 
       boxShadow={'lg'}
       maxW={'640px'}
       direction={{ base: 'column-reverse', md: 'row' }}
@@ -101,7 +115,7 @@ function TestmonialCard(props: TestimonialCardProps) {
         left: 0,
         backgroundImage: backgrounds[index % 4],
       }}>
-      <Flex
+      <Flex  data-aos="fade-up"
         direction={'column'}
         textAlign={'left'}
         justifyContent={'space-between'}>

@@ -1,4 +1,8 @@
 import Tilt from 'react-tilt'
+import {useEffect,useState} from "react"
+import AOS  from 'aos';
+import 'aos/dist/aos.css'
+
 import {
     Box,
     Center,
@@ -10,9 +14,22 @@ import {
   } from '@chakra-ui/react';
   
   export default function ProductSimple({name,designation,image}) {
+
+    useEffect(() => {
+      AOS.init({
+     offset: 200,
+     duration: 600,
+     easing: 'ease-in-sine',
+     delay: 100,
+    });
+    AOS.refresh();
+    
+    }, []);
+
+
     return (
       <Center py={12}>
-        <Box
+        <Box  data-aos="zoom-in-down"
           role={'group'}
           p={6}
           maxW={'330px'}
@@ -23,7 +40,7 @@ import {
           pos={'relative'}
           zIndex={1}>
       <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
-          <Box
+          <Box 
             rounded={'lg'}
             mt={-12}
             pos={'relative'}

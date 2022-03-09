@@ -22,8 +22,10 @@ function Main() {
         statusMessage = ""
         chatMessage = "Welcome To Varsh"
       />
-<Navbar/>
+      <div className='main'>
+   <Navbar/>
     <Hero/>
+    </div>
     <Features/>
     <Testimonials/>
     <Heads/>
