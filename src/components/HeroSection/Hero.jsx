@@ -1,4 +1,5 @@
 import Typewriter from 'typewriter-effect';
+
 import img from "../../images/img.svg";
 import {
   Flex,
@@ -22,7 +23,8 @@ export default function CallToActionWithIllustration() {
           align={'center'}
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}>
-          <Heading className="color-blue-dark"
+
+          <Heading className="color-blue-dark tablet-view"
             fontWeight={600}
             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
@@ -44,6 +46,16 @@ export default function CallToActionWithIllustration() {
               best Marketing
             </Text> */}
           </Heading>
+
+
+          <Heading className="color-blue-dark mobile-view"
+            fontWeight={600}
+            fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
+            lineHeight={'110%'}>
+
+             WEB Development & CRM Softwares along with   best Marketing
+          </Heading>
+
           <Text color={'gray.500'} maxW={'3xl'}>
             To Know More Download Our Brochure !!
           </Text>

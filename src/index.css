@@ -1,6 +1,8 @@
 *{
     font-family: poppins;
+    
 }
+/* body{overflow-x: hidden;} */
 .whatsapp{
     z-index: 1000000;
 }
@@ -40,11 +42,15 @@
     background-color: #fff;
 }
 .carousal{
+    max-width: 95vw;
     height: 80vh;
     position: relative;
     background-color: #fff;
 }
 
+.mobile-view{
+    display: none;
+}
 @media only screen and (max-width: 500px){
 	.Aboutus{
         overflow-x: hidden;
@@ -52,5 +58,28 @@
     }
     .box1{
         min-height: 100vw;
+    }
+    /* body{
+        overflow-x: hidden;
+    } */
+    .main{
+        overflow-x: hidden;
+    }
+    .hide-overflow{
+        overflow-x: hidden;
+    }
+    /* html{
+        overflow-x: hidden;
+    } */
+   
+}
+@media only screen and (max-width: 850px){
+	
+  
+    .mobile-view{
+        display: block;
+    }
+    .tablet-view{
+        display: none;
     }
 }

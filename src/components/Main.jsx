@@ -9,6 +9,8 @@ import {Heads} from './OurHeads/Heads';
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import WhatsappImg from '../images/founder.JPG'
 import About from './Aboutus/About'
+import Carasoul from './Aboutus/Carasoul'
+import Abouttwo from './Aboutus/Abouttwo'
 function Main() {
   return (<>
   <FloatingWhatsApp
@@ -27,7 +29,12 @@ function Main() {
    <Navbar/>
     <Hero/>
     </div>
+    <div className="carousal hide-overflow">
+      <Carasoul/>
+      </div>
+    <Abouttwo />
     {/* <Features/> */}
+
     <Testimonials/>
     {/* <Heads/> */}
     <Contact/>
