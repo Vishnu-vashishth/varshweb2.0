@@ -8,6 +8,7 @@ import Footer from './Footer/Footer'
 import {Heads} from './OurHeads/Heads';
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import WhatsappImg from '../images/founder.JPG'
+import About from './Aboutus/About'
 function Main() {
   return (<>
   <FloatingWhatsApp
@@ -26,9 +27,9 @@ function Main() {
    <Navbar/>
     <Hero/>
     </div>
-    <Features/>
+    {/* <Features/> */}
     <Testimonials/>
-    <Heads/>
+    {/* <Heads/> */}
     <Contact/>
     <Footer/>
   </>);

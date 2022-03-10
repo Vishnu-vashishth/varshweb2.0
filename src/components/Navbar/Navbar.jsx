@@ -240,6 +240,10 @@ const NAV_ITEMS: Array<NavItem> = [
         href: '/',
     },
     {
+        label: 'About Us',
+        href: '/about',
+    },
+    {
         label: 'Services',
         children: [
             {
