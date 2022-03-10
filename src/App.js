@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Contact from "./components/Contactus/Contact";
 import Navbar from "./components/Navbar/Navbar";
-import About from './components/Aboutus/About'
+import About from './components/Aboutus/About';
 const App = () => {
   return (
     <>

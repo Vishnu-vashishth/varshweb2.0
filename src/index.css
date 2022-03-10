@@ -39,9 +39,17 @@
 .heads{
     background-color: #fff;
 }
+.carousal{
+    height: 80vh;
+    position: relative;
+    background-color: #fff;
+}
 
 @media only screen and (max-width: 500px){
 	.Aboutus{
         background: #FFFFFF;
+    }
+    .box1{
+        min-height: 100vw;
     }
 }

@@ -16,7 +16,7 @@ export default function Asm() {
     <>
       <Flex
         bg={useColorModeValue("#F9FAFB", "gray.600")}
-        p={20}
+        p={5}
         w="full"
         justifyContent="center"
         alignItems="center"
@@ -105,7 +105,7 @@ export default function Asm() {
                 color={useColorModeValue("gray.900", "gray.400")}
                 lineHeight={{ md: "shorter" }}
               >
-                Our Vission
+                Our Vision
               </chakra.h2>
               <chakra.p
                 mb={5}

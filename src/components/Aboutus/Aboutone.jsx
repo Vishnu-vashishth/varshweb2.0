@@ -38,18 +38,19 @@ export default function Wfl() {
   };
 
   return (
-    <Flex
+    <Flex 
       bg={useColorModeValue("#F9FAFB", "gray.600")}
-      p={20}
+      p={5}
       w="auto"
       justifyContent="center"
       alignItems="center"
     >
-      <Box
+      <Box 
         shadow="xl"
         bg={useColorModeValue("white", "gray.900")}
         px={8}
         py={20}
+        
         mx="auto"
       >
         <SimpleGrid
@@ -104,7 +105,7 @@ export default function Wfl() {
             <Feature>Sales Generation</Feature>
             <Feature> Revenue Generation</Feature>
             <Feature>Online Marketing</Feature>
-            <Feature>Proffesional Emails</Feature>
+            <Feature>Professional Emails</Feature>
             <Feature> Branding</Feature>
             <Feature>Client Creation</Feature>
             <Feature> Investment</Feature>

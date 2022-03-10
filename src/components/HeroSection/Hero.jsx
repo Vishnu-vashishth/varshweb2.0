@@ -10,6 +10,8 @@ import {
   Icon,
   IconProps,
 } from '@chakra-ui/react';
+import AnimationOffice from "../../lotties/lottie4.json";
+import AnimationLottie from '../../AnimationLottie';
 
 export default function CallToActionWithIllustration() {
   return (
@@ -74,10 +76,8 @@ export default function CallToActionWithIllustration() {
 
 export const Illustration = (props: IconProps) => {
   return (
-
-    <img src={img} />
-
-
+   <img src = {img}/> 
+    
 
   );
 };
