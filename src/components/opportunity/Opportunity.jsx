@@ -16,31 +16,30 @@ import {
 } from '@chakra-ui/react';
 import React from "react";
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import WhatsappImg from '../../images/founder.JPG';
-import Navbar from '../Navbar/Navbar';
+import WhatsappImg from '../../images/project manager.jpg';
 import { Pane, FileUploader, FileCard } from 'evergreen-ui'
 import Footer from '../Footer/Footer';
 import {send} from "emailjs-com";
 const avatars = [
   {
     name: 'Ryan Florence',
-    url: 'https://bit.ly/ ',
+    url: 'https://bit.ly/ryan-florence',
   },
   {
     name: 'Segun Adebayo',
-    url: 'https://bit.ly/',
+    url: 'https://bit.ly/sage-adebayo',
   },
   {
     name: 'Kent Dodds',
-    url: 'https://bit.ly/',
+    url: 'https://bit.ly/kent-c-dodds',
   },
   {
     name: 'Prosper Otemuyiwa',
-    url: 'https://bit.ly/',
+    url: 'https://bit.ly/prosper-baba',
   },
   {
     name: 'Christian Nwamba',
-    url: 'https://bit.ly/',
+    url: 'https://bit.ly/code-beast',
   },
 ];
 
@@ -58,7 +57,7 @@ export default function JoinOurTeam() {
     first_name: '',
     last_name: '',
     mobile_no: '',
-    resume: files,
+    google_link: '',
   });
             /* **************************************************************************** */
   const onSubmit = (e) =>{
@@ -70,27 +69,21 @@ export default function JoinOurTeam() {
       'NhEBELELPCOpY21MZ'
     )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        alert('SUCCESS!', response.status, response.text);
+        window.location.reload();
       })
       .catch((err) => {
         console.log('FAILED...', err);
+        window.location.reload();
       });
   }
   const handleChange1 = (e) =>{
     setToSend({...toSend,
     [e.target.name]:e.target.value});
   }
-  const handleChange2 = e =>{
-    setToSend(prevState=>({
-      ...prevState,
-      resume: files,
-    }))
-  }
-  console.log({...toSend});
-  console.log(files);
   return (<>
    <FloatingWhatsApp
-        phoneNumber="+919264970728"
+        phoneNumber="+916387681558"
         accountName="Varsh Services"
         allowClickAway
         notification
@@ -215,6 +208,7 @@ export default function JoinOurTeam() {
                 _placeholder={{
                   color: 'gray.500',
                 }}
+                required
               />
               <Input
                 placeholder="Lastname"
@@ -227,6 +221,7 @@ export default function JoinOurTeam() {
                 _placeholder={{
                   color: 'gray.500',
                 }}
+                required
               />
               <Input
                 placeholder="+91 (___) __-___-___"
@@ -239,6 +234,20 @@ export default function JoinOurTeam() {
                 _placeholder={{
                   color: 'gray.500',
                 }}
+                required
+              />
+              <Input
+                placeholder="Please enter your resume google link"
+                bg={'gray.100'}
+                border={0}
+                name='google_link'
+                color={'gray.500'}
+                onChange={handleChange1}
+                value={toSend.google_link}
+                _placeholder={{
+                  color: 'gray.500',
+                }}
+                required
               />
               
               <Pane maxWidth={500}>

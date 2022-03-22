@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Contactus.scss";
-import { NavLink } from 'react-router-dom';
-
 export default function Contact() {
 
 const form = document.getElementById("contact-form");

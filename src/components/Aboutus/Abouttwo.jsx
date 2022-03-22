@@ -70,8 +70,9 @@ export default function Asm() {
                 _hover={{ bg: useColorModeValue("gray.700", "gray.600") }}
                 color={useColorModeValue("gray.100", "gray.200")}
                 as="a"
-              >
-                Learn More
+              ><a href="https://drive.google.com/file/d/1UDVgiO6fNkpyHW-tb3IyZmXlmiSetku6/view?usp=sharing" target="__blank">
+              Learn More
+              </a>
               </Button>
             </Box>
 
@@ -129,7 +130,7 @@ export default function Asm() {
                 color={useColorModeValue("gray.100", "gray.200")}
                 as="a"
               >
-                Learn More
+              <a href="https://drive.google.com/file/d/1UDVgiO6fNkpyHW-tb3IyZmXlmiSetku6/view?usp=sharing" target="__blank">Learn More</a>
               </Button>
             </Box>
             <Image

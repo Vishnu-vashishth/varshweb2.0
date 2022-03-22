@@ -10,7 +10,7 @@ import {
   chakra,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 // import AppStoreBadge from '@/components/AppStoreBadge';
 // import PlayStoreBadge from '@/components/PlayStoreBadge';
@@ -106,15 +106,15 @@ export default function LargeWithAppLinksAndSocial() {
           align={{ md: 'center' }}>
           <Text>© 2022 Varsh Services. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
-              <FaInstagram />
-            </SocialButton>
+          <SocialButton label={'Twitter'} href={'#'}>
+            <FaTwitter />
+          </SocialButton>
+          <SocialButton label={'Facebook'} href={'https://www.facebook.com/VarshServices/'}>
+            <FaFacebook />
+          </SocialButton>
+          <SocialButton label={'Instagram'} href={'https://www.instagram.com/varsh_services/'}>
+            <FaInstagram />
+          </SocialButton>
           </Stack>
         </Container>
       </Box>

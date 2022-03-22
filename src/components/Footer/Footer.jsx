@@ -8,7 +8,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
 import { ReactNode } from 'react';
 
 const Logo = (props: any) => {
@@ -81,10 +81,10 @@ export default function SmallWithLogoLeft() {
           <SocialButton label={'Twitter'} href={'#'}>
             <FaTwitter />
           </SocialButton>
-          <SocialButton label={'Whastapp'} href={'#'}>
-            <FaYoutube />
+          <SocialButton label={'Facebook'} href={'https://www.facebook.com/VarshServices/'}>
+            <FaFacebook />
           </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
+          <SocialButton label={'Instagram'} href={'https://www.instagram.com/varsh_services/'}>
             <FaInstagram />
           </SocialButton>
         </Stack>

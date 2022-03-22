@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect';
-
 import img from "../../images/img.svg";
 import {
   Flex,
@@ -8,12 +7,9 @@ import {
   Stack,
   Text,
   Button,
-  Icon,
   IconProps,
 } from '@chakra-ui/react';
-import AnimationOffice from "../../lotties/lottie4.json";
-import AnimationLottie from '../../AnimationLottie';
-
+import { NavLink } from 'react-router-dom';
 export default function CallToActionWithIllustration() {
   return (
     <div className="main">
@@ -23,8 +19,7 @@ export default function CallToActionWithIllustration() {
           align={'center'}
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}>
-
-          <Heading className="color-blue-dark tablet-view"
+          <Heading className="color-blue-dark"
             fontWeight={600}
             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
@@ -37,25 +32,12 @@ export default function CallToActionWithIllustration() {
                 cursorClassName:"cursor",
               }}
             />
-
             {' '}
-
-
-
             {/* <Text as={'span'} className="color-blue-dark" >
               best Marketing
             </Text> */}
           </Heading>
-
-
-          <Heading className="color-blue-dark mobile-view"
-            fontWeight={600}
-            fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
-            lineHeight={'110%'}>
-
-             WEB Development & CRM Softwares along with   best Marketing
-          </Heading>
-
+         
           <Text color={'gray.500'} maxW={'3xl'}>
             To Know More Download Our Brochure !!
           </Text>
@@ -66,12 +48,12 @@ export default function CallToActionWithIllustration() {
               colorScheme={'cyan'}
               bg={'white.400'}
               _hover={{ bg: 'white' }}>
-              <a href="https://drive.google.com/file/d/1IKhFJZlxR0Xf3h3ulQspvJU1CzsT0y-G/view" target="__blank">
+              <a href="https://drive.google.com/file/d/1UDVgiO6fNkpyHW-tb3IyZmXlmiSetku6/view?usp=sharing" target="__blank">
                 Download Now
               </a>
             </Button>
             <Button rounded={'full'} px={6}>
-              Learn more
+            <NavLink exact="true" to="/about" id='underline'> Learn more</NavLink>
             </Button>
           </Stack>
           <Flex w={'full'}>
@@ -89,7 +71,5 @@ export default function CallToActionWithIllustration() {
 export const Illustration = (props: IconProps) => {
   return (
    <img src = {img}/> 
-    
-
   );
 };

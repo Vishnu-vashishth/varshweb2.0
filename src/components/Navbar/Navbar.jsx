@@ -249,7 +249,7 @@ const NAV_ITEMS: Array<NavItem> = [
             {
                 label: 'WEB Development & CRM Software',
                 subLabel: '',
-                href: '#',
+                href: 'web',
             },
             {
                 label: 'Digital Marketing & Informetic Center',
@@ -259,7 +259,7 @@ const NAV_ITEMS: Array<NavItem> = [
             {
                 label: 'Business Development Solutions',
                 subLabel: '',
-                href: '#',
+                href: 'bus',
             },
         ],
     },

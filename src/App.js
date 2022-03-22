@@ -5,6 +5,9 @@ import Main from "./components/Main";
 import Contact from "./components/Contactus/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import About from './components/Aboutus/About';
+import Bus from './components/Services/Business';
+import Process from './components/Services/Process/Process';
+import Webcrm from './components/Services/Web&Crm';
 const App = () => {
   return (
     <>
@@ -14,6 +17,8 @@ const App = () => {
                         <Route path='/contact' element={<><Navbar/> <Contact/></>} />
                         <Route path='/careers' element={<><Navbar/><Opport/></>} />
                         <Route path='/about' element={<><Navbar/><About/></>} />
+                        <Route path='/bus' element={<><Navbar/><Bus/><Process/></>} />
+                        <Route path='/web' element={<><Navbar/><Webcrm/></>} />
                      </Routes>
     </>
   )

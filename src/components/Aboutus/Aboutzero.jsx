@@ -8,7 +8,7 @@ import {
   Icon,
   Image,
 } from "@chakra-ui/react";
-
+import { NavLink } from 'react-router-dom';
 import { FiExternalLink } from "react-icons/fi";
 
 const CTA = () => {
@@ -80,8 +80,13 @@ const CTA = () => {
             _hover={{
               bg: useColorModeValue("brand.700", "brand.600"),
             }}
+            className="button"
           >
-            Contact Us Now
+          <NavLink exact="true" to="/contact">Contact Us Now</NavLink>
+            <style>{`
+            .button{
+              cursor: pointer;
+            }`}</style>
             <Icon as={FiExternalLink} ml={2} />
           </chakra.a>
         </Box>
