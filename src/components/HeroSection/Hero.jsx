@@ -26,7 +26,7 @@ export default function CallToActionWithIllustration() {
 
             <Typewriter
               options={{
-                strings: [' WEB Development & CRM Softwares along with   best Marketing'],
+                strings: ['Turning your digital visions into reality'],
                 autoStart: true,
                 loop: true,
                 cursorClassName:"cursor",
@@ -36,6 +36,16 @@ export default function CallToActionWithIllustration() {
             {/* <Text as={'span'} className="color-blue-dark" >
               best Marketing
             </Text> */}
+          </Heading>
+          <Heading className="color-blue-dark"
+            fontWeight={400}
+            fontSize={{ base: '1xl', sm: '2xl', md: '3xl' }}
+            lineHeight={'110%'}>
+
+            Web development and CRM software services
+            together with the finest marketing solutions to
+            scale up your business rapidly.
+
           </Heading>
          
           <Text color={'gray.500'} maxW={'3xl'}>

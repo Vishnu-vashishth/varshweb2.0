@@ -1,9 +1,10 @@
 import React from "react";
 import { chakra, Box, useColorModeValue, Icon, Image,Button } from "@chakra-ui/react";
-
+import { NavLink } from 'react-router-dom';
 const KuttyHero = () => {
     const bg = useColorModeValue("white", "gray.700");
     return (
+        <>
         <Box pos="relative" overflow="hidden" bg={bg} mt={0} >
             <Box maxW="7xl" mx="auto"  >
                 <Box
@@ -88,9 +89,7 @@ const KuttyHero = () => {
                                         colorScheme={'cyan'}
                                         bg={'gray.400'}
                                         _hover={{ bg: 'white' }}>
-                                        <a href="/about">
-                                            Learn More
-                                        </a>
+                                        <NavLink exact="true" to="/about" id='underline'> Learn more</NavLink>
                                     </Button>
                                 </Box>
                             </Box>
@@ -116,6 +115,7 @@ const KuttyHero = () => {
                 />
             </Box>
         </Box>
+        </>
     );
 };
 

@@ -31,7 +31,7 @@ export default function WithSubnavigation() {
         <Box  >
             <Flex className='navbar'
                 // bg={useColorModeValue('', 'gray.800')}
-                color={useColorModeValue('white.600', 'white')}
+                color={useColorModeValue('white.800', 'white')}
                 minH={'80px'}
                 py={{ base: 4 }}
                 px={{ base: 4 }}

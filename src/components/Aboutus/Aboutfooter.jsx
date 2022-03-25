@@ -64,7 +64,6 @@ export default function LargeWithAppLinksAndSocial() {
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
             <Link href={'/about'}>About Us</Link>
-            {/* <Link href={'#'}>Blog</Link> */}
             <Link href={'/careers'}>Careers</Link>
             <Link href={'/contact'}>Contact Us</Link>
           </Stack>

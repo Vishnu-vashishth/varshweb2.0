@@ -1,5 +1,6 @@
 import React from 'react'
 import './Process.css'
+import AboutFooter from "../../Aboutus/Aboutfooter";
 const Process = () => {
   return (
     <>
@@ -77,7 +78,8 @@ const Process = () => {
           </li>
         </ul>
       </main>
-    </div></>
+    </div>
+   </>
   )
 }
 

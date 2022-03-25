@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar/Navbar'
-import Hero from './HeroSection/Hero'
+import Hero1 from './HeroSection/Hero1'
 import Testimonials from './Testimonials/Testimonial'
 import Features from './Features/Feature'
 import Contact from './Contactus/Contact'
@@ -12,6 +12,7 @@ import About from './Aboutus/About'
 import Carasoul from './Aboutus/Carasoul'
 import Abouttwo from './Aboutus/Abouttwo'
 import AboutFooter from './Aboutus/Aboutfooter';
+import Process from './Services/Process/Process';
 function Main() {
   return (<>
   <FloatingWhatsApp
@@ -28,7 +29,7 @@ function Main() {
       />
       <div className='main'>
    <Navbar/>
-    <Hero/>
+    <Hero1/>
     </div>
     {/* <div className="carousal hide-overflow">
       <Carasoul/>
@@ -37,6 +38,7 @@ function Main() {
     {/* <Features/> */}
 
     <Features/>
+    <Process/>
     <Testimonials/>
     {/* <Heads/> */}
     <Contact/>

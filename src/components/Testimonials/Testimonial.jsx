@@ -19,7 +19,7 @@ const testimonials = [
     name: 'Kalpana Foods',
     role: 'Namish Chauhan',
     content:
-      'It really saves me time and effort. It is exactly what our business has been lacking. Varsh is the most valuable business resource we have ever purchased. After using Varsh Services my business skyrocketed!',
+      'Varsh services has saved my time and effort. It is exactly what our business has been lacking. Varsh is the most valuable business resource we have ever purchased. My business has skyrocketed since then!',
     avatar: 'https://i.pinimg.com/originals/bf/e6/5e/bfe65ef4bb063898092b24ecbf2ce586.jpg',
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     name: 'Starwell Foundation',
     role: 'An Online Foundation',
     content:
-      "We didn't even need training. We've used Varsh services for the last one year. We have gotten at least 50 times the value from Varsh. We made back real value in just 48 hours!",
+      "We didn't even need training. We've used Varsh services for the last year. We have got at least 50 times the value from Varsh. We made back real value in just 48 hours!",
     avatar:
       'https://i.pinimg.com/originals/63/3b/81/633b810061cfb6fdacb9dc3ff6cf20ae.jpg',
   },
@@ -36,7 +36,7 @@ const testimonials = [
     name: 'Apna Kitchen',
     role: 'An Online Food Store',
     content:
-      "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, Varsh is the coolest, most happening thing around! We love Varsh!",
+      "Thank you for making it painless, pleasant, and most of all, hassle-free! I'm good to go. No matter where you go, Varsh is the coolest, most happening thing around! We love Varsh!",
     avatar:
       'https://i.pinimg.com/originals/dc/b6/15/dcb6159ec4170d294a53ec12b6925685.jpg',
   },
@@ -45,7 +45,7 @@ const testimonials = [
     name: 'Vindhyachal Construction',
     role: 'A construction B2B company',
     content:
-      'I am so pleased with this product. Varsh is both attractive and highly adaptable. Without Varsh, we would have gone bankrupt by now. Thank you for creating this product!',
+      'I am so pleased with this product. Varsh is both attractive and highly adaptable. Without Varsh, our business couldn’t have grown that much in such less time. Thank you for creating this product!',
     avatar:
       'https://i.pinimg.com/originals/3e/20/46/3e2046ec1c0c298c1b5dbaafda528c05.jpg',
   },

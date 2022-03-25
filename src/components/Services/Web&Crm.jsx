@@ -1,4 +1,5 @@
 import React from "react";
+import AboutFooter from "../Aboutus/Aboutfooter";
 import webImage from '../../images/c5.jpg'
 import {
     chakra,
@@ -10,9 +11,11 @@ import {
     Text,
     Icon,
 } from "@chakra-ui/react";
+import { NavLink } from 'react-router-dom';
 
 const Webcrm = () => {
     return (
+        <>
         <Box px={8} py={24} mx="auto">
             <Box
                 w={{ base: "full", md: 11 / 12, xl: 9 /12 }}
@@ -66,7 +69,7 @@ const Webcrm = () => {
                         size="lg"
                         cursor="pointer"
                     >
-                        Learn More
+                        <NavLink exact="true" to="/about" id='underline'> Learn more</NavLink>
                         <Icon boxSize={4} ml={1} viewBox="0 0 20 20" fill="currentColor">
                             <path
                                 fillRule="evenodd"
@@ -92,6 +95,8 @@ const Webcrm = () => {
                 />
             </Box>
         </Box>
+      
+        </>
     );
 };
 

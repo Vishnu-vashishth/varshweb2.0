@@ -1,0 +1,147 @@
+body{
+  background-color:#fafafa;
+}
+.mt-30{margin-top:30px;}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.seofy_module_services_3 .services_wrapper {
+    background: #fff;
+      border: 1px solid #dedede;
+    padding: 45px;
+    -webkit-box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+    -moz-box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+    box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.seofy_module_services_3 .services_icon_wrapper {
+    position: relative;
+    z-index: 1;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background: #f4f6fd;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon {
+    width: 84%;
+    height: 84%;
+    left: 8%;
+    top: 8%;
+}
+
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon:nth-child(1) {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-animation: service_hexagon_1 2s infinite linear;
+    -moz-animation: service_hexagon_1 2s infinite linear;
+    -o-animation: service_hexagon_1 2s infinite linear;
+    animation: service_hexagon_1 2s infinite linear;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.seofy_hexagon {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon>svg {
+    width: 18px;
+}
+
+.seofy_hexagon svg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.seofy_module_services.service_fade .services_wrapper:hover .services_back,.seofy_module_services.service_fade .services_wrapper:hover .services_button{opacity:1}
+.seofy_module_services.service_front_slide.anim_dir_to_bottom .services_wrapper:hover .services_button{top:50%}
+.seofy_module_services.service_front_slide.anim_dir_to_bottom .services_wrapper:hover .services_front{-webkit-transform:translateY(120%);-moz-transform:translateY(120%);-ms-transform:translateY(120%);-o-transform:translateY(120%);transform:translateY(120%)}
+.seofy_module_services.service_front_slide.anim_dir_to_top .services_wrapper:hover .services_button{bottom:50%}
+.seofy_module_services.service_front_slide.anim_dir_to_top .services_wrapper:hover .services_front{-webkit-transform:translateY(-120%);-moz-transform:translateY(-120%);-ms-transform:translateY(-120%);-o-transform:translateY(-120%);transform:translateY(-120%)}
+.seofy_module_services.service_front_slide.anim_dir_to_left .services_wrapper:hover .services_button{right:50%}
+.seofy_module_services.service_front_slide.anim_dir_to_left .services_wrapper:hover .services_front{-webkit-transform:translateX(-120%);-moz-transform:translateX(-120%);-ms-transform:translateX(-120%);-o-transform:translateX(-120%);transform:translateX(-120%)}
+.seofy_module_services.service_front_slide.anim_dir_to_right .services_wrapper:hover .services_button{left:50%}
+.seofy_module_services.service_front_slide.anim_dir_to_right .services_wrapper:hover .services_front{-webkit-transform:translateX(120%);-moz-transform:translateX(120%);-ms-transform:translateX(120%);-o-transform:translateX(120%);transform:translateX(120%)}
+.seofy_module_services.service_back_slide .services_wrapper:hover .services_back{left:0;top:0}
+.seofy_module_services.service_back_slide.anim_dir_to_bottom .services_wrapper:hover .services_button{top:50%}
+.seofy_module_services.service_back_slide.anim_dir_to_top .services_wrapper:hover .services_button{bottom:50%}
+.seofy_module_services.service_back_slide.anim_dir_to_left .services_wrapper:hover .services_button{right:50%}
+.seofy_module_services.service_back_slide.anim_dir_to_right .services_wrapper:hover .services_button{left:50%}
+.seofy_module_services_2 .services_wrapper{position:relative;z-index:1;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.seofy_module_services_2 .services_logo{position:absolute;z-index:1;top:50%;left:20%;-webkit-transform:translate3d(0,-50%,0);-moz-transform:translate3d(0,-50%,0);transform:translate3d(0,-50%,0);-webkit-transition:all .8s ease-in-out;-o-transition:all .8s ease-in-out;-moz-transition:all .8s ease-in-out;transition:all .8s ease-in-out}
+.seofy_module_services_2 .services_content{-webkit-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;transition:all .6s ease-in-out;width:100%}
+.seofy_module_services_2 .services_title{font-size:42px}.seofy_module_services_2 .services_subtitle{font-size:18px;margin-bottom:3px}
+.seofy_module_services_2 .services_title,.seofy_module_services_2 .services_subtitle{left:41%;position:relative;z-index:2;-webkit-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;transition:all .6s ease-in-out;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);display:inline-block;max-width:60%}
+.seofy_module_services_2 .services_wrapper:hover .services_logo{left:50%;-webkit-transform:translate3d(-50%,-50%,0) scale(0.8);-moz-transform:translate3d(-50%,-50%,0) scale(0.8);transform:translate3d(-50%,-50%,0) scale(0.8)}
+.seofy_module_services_2 .services_wrapper:hover .services_title,.seofy_module_services_2 .services_wrapper:hover .services_subtitle{text-align:center;left:50%;-webkit-transform:translate3d(-50%,0,0);-moz-transform:translate3d(-50%,0,0);transform:translate3d(-50%,0,0)}
+.seofy_module_services_2 .seofy_hexagon{-webkit-animation:spin-right 10s 30 linear;-moz-animation:spin-right 10s 30 linear;-o-animation:spin-right 10s 30 linear;animation:spin-right 10s 30 linear;-webkit-transform-origin:150px 150px 0;-moz-transform-origin:150px 150px 0;-ms-transform-origin:150px 150px 0;-o-transform-origin:150px 150px 0;transform-origin:150px 150px 0}
+@-webkit-keyframes spin-right{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}@-moz-keyframes spin-right{100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}@-o-keyframes spin-right{100%{-o-transform:rotate(360deg);transform:rotate(360deg)}
+}@keyframes spin-right{100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
+}.seofy_module_services_3 .services_wrapper{background:#fff;padding:45px;-webkit-box-shadow:7px 5px 30px rgba(72,73,121,0.15);-moz-box-shadow:7px 5px 30px rgba(72,73,121,0.15);box-shadow:7px 5px 30px rgba(72,73,121,0.15);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-align:center}
+.seofy_module_services_3 .services_icon_wrapper{position:relative;z-index:1;width:130px;height:130px;line-height:130px;font-size:50px;margin-left:auto;margin-right:auto;margin-bottom:30px;background:#f4f6fd;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon{width:84%;height:84%;left:8%;top:8%}
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon:nth-child(1){-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-animation:service_hexagon_1 2s infinite linear;-moz-animation:service_hexagon_1 2s infinite linear;-o-animation:service_hexagon_1 2s infinite linear;animation:service_hexagon_1 2s infinite linear;-webkit-animation-play-state:paused;-moz-animation-play-state:paused;-o-animation-play-state:paused;animation-play-state:paused}
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon:nth-child(2){-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);-webkit-animation:service_hexagon_2 2s infinite linear;-moz-animation:service_hexagon_2 2s infinite linear;-o-animation:service_hexagon_2 2s infinite linear;animation:service_hexagon_2 2s infinite linear;-webkit-animation-play-state:paused;-moz-animation-play-state:paused;-o-animation-play-state:paused;animation-play-state:paused}
+.seofy_module_services_3 .services_icon_wrapper .seofy_hexagon>svg{width:18px}.seofy_module_services_3 .services_icon{-webkit-transition:.5s;-o-transition:.5s;-moz-transition:.5s;transition:.5s}
+.seofy_module_services_3 .services_title{font-size:24px;font-weight:700;margin-bottom:10px}
+.seofy_module_services_3 .services_content{font-size:18px;margin-bottom:15px}.seofy_module_services_3 .services_wrapper:hover .seofy_hexagon:nth-child(1),.seofy_module_services_3 .services_wrapper:hover .seofy_hexagon:nth-child(2){-webkit-animation-play-state:running;-moz-animation-play-state:running;-o-animation-play-state:running;animation-play-state:running}
+.seofy_module_services_3 .services_button{margin-left:0}@-webkit-keyframes service_hexagon_1{0%{-webkit-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-moz-keyframes service_hexagon_1{0%{-moz-transform:rotate(0);transform:rotate(0)}
+100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}}@-o-keyframes service_hexagon_1{0%{-o-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes service_hexagon_1{0%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
+}@-webkit-keyframes service_hexagon_2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+100%{-webkit-transform:rotate(540deg);transform:rotate(540deg)}}@-moz-keyframes service_hexagon_2{0%{-moz-transform:rotate(180deg);transform:rotate(180deg)}
+100%{-moz-transform:rotate(540deg);transform:rotate(540deg)}}@-o-keyframes service_hexagon_2{0%{-o-transform:rotate(180deg);transform:rotate(180deg)}
+100%{-o-transform:rotate(540deg);transform:rotate(540deg)}}@keyframes service_hexagon_2{0%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+100%{-webkit-transform:rotate(540deg);-moz-transform:rotate(540deg);-o-transform:rotate(540deg);transform:rotate(540deg)}
+}.seofy_module_services_4{position:relative;z-index:1;margin-left:auto;margin-right:auto}
+.seofy_module_services_4 .services_wrapper{padding-top:100%;text-align:center}.seofy_module_services_4 .services_content{position:absolute;z-index:1;height:80%;width:80%;top:10%;left:10%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.seofy_module_services_4 .services_bg{position:absolute;z-index:1;height:80%;width:80%;top:10%;left:10%}
+.seofy_module_services_4 .services_bg .seofy_hexagon svg{-webkit-transition:all .5s;-o-transition:all .5s;-moz-transition:all .5s;transition:all .5s;-webkit-filter:drop-shadow(7px 5px 30px rgba(72,73,121,0.15));filter:drop-shadow(7px 5px 30px rgba(72,73,121,0.15))}
+.seofy_module_services_4 .services_number{position:absolute;z-index:-1;font-size:100px;font-weight:900;color:#f4f6fd;top:0;right:0;line-height:1;-webkit-transition:all .5s;-o-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+.seofy_module_services_4 .services_icon_wrapper{font-size:60px;line-height:1;margin-bottom:14px}
+.seofy_module_services_4 .services_icon{-webkit-transition:all .5s;-o-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+.seofy_module_services_4 .services_title{font-size:20px;font-weight:700}.seofy_module_services_4 .services_figure{position:absolute;z-index:1;height:100%;width:100%;top:0;left:0;background:#fff;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;-webkit-box-shadow:7px 5px 30px rgba(72,73,121,0.15);-moz-box-shadow:7px 5px 30px rgba(72,73,121,0.15);box-shadow:7px 5px 30px rgba(72,73,121,0.15)}
+.seofy_module_services_4.hex-type .services_wrapper{padding-top:112%}.seofy_module_services_4:hover .seofy_hexagon svg{fill:#f4f6fd !important;-webkit-filter:none;filter:none}
+.seofy_module_services_4:hover .services_figure{background:#f4f6fd}.seofy_module_circuit_services .services_wrapper{position:relative;z-index:1;height:0;padding-top:100%}
+.seofy_module_circuit_services .services_wrapper:before{content:'';position:absolute;z-index:-1;left:10%;top:10%;width:80%;height:80%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;border:1px solid #dee1ed}

@@ -41,7 +41,7 @@ form?.addEventListener("submit", handleSubmit);
     <section className="contact section" id="contact" style={{margin:"15px"}}>
       <h1 className="section_title">Contact Us</h1>
       <span className="section_subtitle">
-        Want to connect? Our inbox is always open!!
+      Have a project?We’re here, let’s work together
       </span>
 
       <div className="contact_container container grid">
