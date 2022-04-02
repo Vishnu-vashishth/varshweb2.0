@@ -1,7 +1,6 @@
 import React from "react";
 import about1 from "../../images/aboutimg1.jpg";
 import about2 from "../../images/aboutimg.jpg";
-import Aboutone from './Aboutone'
 import {
   Box,
   Button,
@@ -46,7 +45,7 @@ export default function Asm() {
                 color={useColorModeValue("gray.900", "gray.400")}
                 lineHeight={{ md: "shorter" }}
               >
-                Get Your Buissness Online
+                Get Your Business Online
               </chakra.h2>
               <chakra.p
                 mb={5}
@@ -66,7 +65,7 @@ export default function Asm() {
               <Button
                 w={{ base: "full", sm: "auto" }}
                 size="lg"
-                bg={useColorModeValue("gray.900", "gray.700")}
+                bg="#e5e5e5"
                 _hover={{ bg: useColorModeValue("gray.700", "gray.600") }}
                 color={useColorModeValue("gray.100", "gray.200")}
                 as="a"
@@ -125,7 +124,7 @@ export default function Asm() {
               <Button
                 w={{ base: "full", sm: "auto" }}
                 size="lg"
-                bg={useColorModeValue("gray.900", "gray.700")}
+                bg="#e5e5e5"
                 _hover={{ bg: useColorModeValue("gray.700", "gray.600") }}
                 color={useColorModeValue("gray.100", "gray.200")}
                 as="a"

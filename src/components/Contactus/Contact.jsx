@@ -51,7 +51,7 @@ form?.addEventListener("submit", handleSubmit);
               <i className="uil uil-envelope-alt contact_icon"></i>
               <div>
                 <h3 className="contact_title">Email</h3>
-                <span className="contact_subtitle">admin@varshservices.com</span>
+                <span className="contact_subtitle">support@varsh.org</span>
               </div>
             </div>
           </a>
@@ -66,7 +66,7 @@ form?.addEventListener("submit", handleSubmit);
             </div>
           </a>
 
-          <a href="/">
+          <a href="https://twitter.com/VarshServices?t=Tz-Us3n7HYpV1SA_peMfQg&s=08">
             <div className="contact_info">
               <i className="uil uil-twitter-alt contact_icon"></i>
               <div>

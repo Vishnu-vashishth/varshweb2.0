@@ -3,7 +3,6 @@ import {
     Flex,
     Text,
     IconButton,
-    Button,
     Stack,
     Collapse,
     Icon,
@@ -15,7 +14,6 @@ import {
     useBreakpointValue,
     useDisclosure,
 } from '@chakra-ui/react';
-import { Image } from '@chakra-ui/react';
 import logo from "../../images/logo.png";
 import {
     HamburgerIcon,
@@ -30,14 +28,10 @@ export default function WithSubnavigation() {
     return (
         <Box  >
             <Flex className='navbar'
-                // bg={useColorModeValue('', 'gray.800')}
                 color={useColorModeValue('white.800', 'white')}
                 minH={'80px'}
                 py={{ base: 4 }}
                 px={{ base: 4 }}
-                // borderBottom={1}
-                // borderStyle={'solid'}
-                // borderColor={useColorModeValue('White.200', 'White.900')}
                 align={'center'}>
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
@@ -254,7 +248,7 @@ const NAV_ITEMS: Array<NavItem> = [
             {
                 label: 'Digital Marketing & Informetic Center',
                 subLabel: '',
-                href: '#',
+                href: 'dig',
             },
             {
                 label: 'Business Development Solutions',
@@ -266,18 +260,6 @@ const NAV_ITEMS: Array<NavItem> = [
     {
         label: 'Contact Us',
         href: '/contact'
-        // children: [
-        //     // {
-        //     //     label: 'Job Board',
-        //     //     subLabel: 'Find your dream design job',
-        //     //     href: '#',
-        //     // },
-        //     // {
-        //     //     label: 'Freelance Projects',
-        //     //     subLabel: 'An exclusive list for contract work',
-        //     //     href: '#',
-        //     // },
-        // ],
     },
     {
         label: 'Opportunities',

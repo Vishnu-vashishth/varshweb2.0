@@ -24,7 +24,7 @@ class MyCarousel extends Component {
   render() {
     return (
       <ReactCardCarousel autoplay={ true } autoplay_speed={ 2500 }>
-            <Aboutcard Heading="Business Development Solutions" image={c1} text="hello"/>
+            <Aboutcard Heading="Business Development Solutions" image={c1}/>
             <Aboutcard Heading="Online Marketing" image={c2} text="hello"/>
             <Aboutcard Heading="WEB Development & CRM Software" image={c3} text="hello"/>
             <Aboutcard Heading="Digital Marketing & Informetic Center" image={c4} text="hello"/>

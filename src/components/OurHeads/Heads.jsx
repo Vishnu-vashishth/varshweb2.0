@@ -14,7 +14,7 @@ export const Heads = () => (
     <Card name="Kuldeep Singh" designation=" Chief Operating Officer" image={Img1}/>
     <Card name="Adarsh Geeta Gupta" designation="Founder" image={Img2}/>
     <Card name="Vartika Ranjan" designation="Co-founder & MD" image={Img3}/>
-    <Card name="Namish Chauhan" designation="Investor" image={Img4}/>
+    <Card name="Namish Chauhan" designation="Board Director & Investor" image={Img4} className="investor"/>
     </div>
     </>
   )

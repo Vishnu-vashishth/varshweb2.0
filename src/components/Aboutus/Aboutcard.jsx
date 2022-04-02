@@ -1,14 +1,11 @@
 import React from "react";
-import { Box, Flex, Image, Badge, useColorModeValue } from "@chakra-ui/react";
-import { StarIcon } from "@chakra-ui/icons";
+import { Box, Flex, Image, useColorModeValue } from "@chakra-ui/react";
 
-const Cpwe = ({Heading,text,image}) => {
-
+const Cpwe = ({ Heading, text, image }) => {
   const property = {
     imageUrl: image,
     imageAlt: text,
     title: Heading,
-    
   };
 
   return (
@@ -19,13 +16,7 @@ const Cpwe = ({Heading,text,image}) => {
       alignItems="center"
       justifyContent="center"
     >
-      <Box
-        // bg={useColorModeValue("white", "gray.800")}
-        maxW="sm"
-        borderWidth="1px"
-        rounded="lg"
-        // shadow="lg"
-      >
+      <Box maxW="sm" borderWidth="1px" rounded="lg">
         <Image
           src={property.imageUrl}
           alt={property.imageAlt}
@@ -33,19 +24,7 @@ const Cpwe = ({Heading,text,image}) => {
         />
 
         <Box p="6">
-          <Box d="flex" alignItems="baseline">
-            
-            {/* <Box
-              color="gray.500"
-              fontWeight="semibold"
-              letterSpacing="wide"
-              fontSize="xs"
-              textTransform="uppercase"
-              ml="2"
-            >
-              {property.beds} beds &bull; {property.baths} baths
-            </Box> */}
-          </Box>
+          <Box d="flex" alignItems="baseline"></Box>
 
           <Box
             mt="1"
@@ -57,12 +36,7 @@ const Cpwe = ({Heading,text,image}) => {
             {property.title}
           </Box>
 
-          
-
-          <Box d="flex" mt="2" alignItems="center">
-            
-            
-          </Box>
+          <Box d="flex" mt="2" alignItems="center"></Box>
         </Box>
       </Box>
     </Flex>

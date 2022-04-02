@@ -57,12 +57,6 @@ const KuttyHero = () => {
                                     right business needs
                                     {" "}
                                 </chakra.span>
-                                {/* <chakra.span
-                                    display={{ base: "block", xl: "inline" }}
-                                    color={useColorModeValue("brand.600", "brand.400")}
-                                >
-                                    online business
-                                </chakra.span> */}
                             </chakra.h1>
                             <chakra.p
                                 mt={{ base: 3, sm: 5, md: 5 }}

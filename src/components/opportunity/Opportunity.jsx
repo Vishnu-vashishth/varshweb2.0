@@ -59,7 +59,6 @@ export default function JoinOurTeam() {
     mobile_no: '',
     google_link: '',
   });
-            /* **************************************************************************** */
   const onSubmit = (e) =>{
     e.preventDefault();
     send(
@@ -94,7 +93,6 @@ export default function JoinOurTeam() {
         statusMessage = ""
         chatMessage = "Welcome To Varsh"
       />
-    {/* <Navbar/> */}
     <Box position={'relative'}>
       <Container
         as={SimpleGrid}
@@ -122,7 +120,6 @@ export default function JoinOurTeam() {
                   key={avatar.name}
                   name={avatar.name}
                   src={avatar.url}
-                  // size={useBreakpointValue({ base: 'md', md: 'lg' })}
                   position={'relative'}
                   zIndex={2}
                   _before={{
@@ -196,7 +193,6 @@ export default function JoinOurTeam() {
           </Stack>
           <Box as={'form'} mt={10} onSubmit={onSubmit}>
             <Stack spacing={4}>
-            {/* /* **************************************************************************** */}
               <Input
                 placeholder="Firstname"
                 bg={'gray.100'}

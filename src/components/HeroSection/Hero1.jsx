@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Typewriter from 'typewriter-effect';
 import img from "../../images/img.svg";
 import {
@@ -6,17 +6,48 @@ import {
   Box,
   useColorModeValue,
   Flex,
-  Badge,
   Input,
   VisuallyHidden,
   SimpleGrid,
   Button,
   InputGroup,
   InputRightElement,
-  Image, Heading,Text
+  Image,Text
 } from "@chakra-ui/react";
-
+import {send} from "emailjs-com";
 const KuttyHero = () => {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("")
+  const inputChangeHandler = e => {
+    const value = e.target.value
+    setEmail(e.target.value)
+    if (
+      !/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i.test(
+        value
+      )
+    ) {
+      setError("Invalid Email")
+    } else {
+      setError("")
+    }
+  }
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    send(
+      'service_0n4qktb',
+      'template_0b65r5y',
+      email,
+      'BWsIaUh8_t7hAkI1t'
+    )
+      .then((response) => {
+        alert('SUCCESS!', response.status, response.text);
+        window.location.reload();
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+        window.location.reload();
+      });
+  }
   return (
     <SimpleGrid
       columns={{ base: 1, md: 2 }}
@@ -79,7 +110,7 @@ const KuttyHero = () => {
           together with the finest marketing solutions to
           scale up your business rapidly.
         </chakra.p>
-        <chakra.form w="full" mb={7}>
+        <chakra.form w="full" mb={7} onSubmit={handleSubmit}>
           <VisuallyHidden>Your Email</VisuallyHidden>
           <Box display={{ base: "block", lg: "none" }}>
             <Input
@@ -88,8 +119,10 @@ const KuttyHero = () => {
               type="email"
               placeholder="Enter your email..."
               bg="white"
-              required="true"
-            />
+              value={email}
+              onChange={inputChangeHandler}
+              required
+            />  
             <Button
               w="full"
               mt={2}
@@ -103,14 +136,24 @@ const KuttyHero = () => {
               Get Started
             </Button>
           </Box>
+          <p className="error">{error && error}</p>
+          <style>{`
+          .error{
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 501;
+          }
+          `}</style>
           <InputGroup size="lg" w="full" display={{ base: "none", lg: "flex" }}>
             <Input
               size="lg"
               color="brand.900"
               type="email"
               placeholder="Enter your email..."
+              value={email}
+              onChange={inputChangeHandler}
               bg="white"
-              required="true"
+              required
             />
             <InputRightElement w="auto">
               <Button
@@ -127,7 +170,6 @@ const KuttyHero = () => {
             </InputRightElement>
           </InputGroup>
         </chakra.form>
-       
       </Flex>
       <Box>
         <Image

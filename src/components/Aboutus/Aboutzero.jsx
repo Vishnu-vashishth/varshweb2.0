@@ -72,7 +72,6 @@ const CTA = () => {
             px={5}
             py={3}
             border="solid transparent"
-            // fontWeight="bold"
             w="full"
             rounded="md"
             color={useColorModeValue("black")}

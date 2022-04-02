@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../../images/img1.svg";
 import {
   chakra,
   Box,
@@ -9,6 +9,7 @@ import {
   SimpleGrid,
   Button,
   VStack,
+  Image,
 } from "@chakra-ui/react";
 export default function Wfl() {
   const Feature = (props) => {
@@ -60,6 +61,15 @@ export default function Wfl() {
           spacingX={{ base: 10, lg: 24 }}
         >
           <Box>
+          <Image
+          src={img}
+          alt="4"
+          fit="cover"
+          w="full"
+          h={{ base: 64, md: "full" }}
+          bg=""
+          loading="lazy"
+        />
             <chakra.h2
               mb={3}
               fontSize={{ base: "3xl", md: "4xl" }}

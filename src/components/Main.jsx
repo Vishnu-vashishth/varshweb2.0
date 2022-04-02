@@ -4,15 +4,13 @@ import Hero1 from './HeroSection/Hero1'
 import Testimonials from './Testimonials/Testimonial'
 import Features from './Features/Feature'
 import Contact from './Contactus/Contact'
-import Footer from './Footer/Footer'
-import {Heads} from './OurHeads/Heads';
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import WhatsappImg from '../images/project manager.jpg'
-import About from './Aboutus/About'
-import Carasoul from './Aboutus/Carasoul'
 import Abouttwo from './Aboutus/Abouttwo'
 import AboutFooter from './Aboutus/Aboutfooter';
 import Process from './Services/Process/Process';
+// import Icons from './floatingicons/Icons'
+import "../App.css";
 function Main() {
   return (<>
   <FloatingWhatsApp
@@ -20,27 +18,33 @@ function Main() {
         accountName="Varsh Services"
         allowClickAway
         notification
-        notificationDelay={60000} // 1 minute
+        notificationDelay={60000}
         notificationSound
         avatar ={WhatsappImg} 
         className ="whatsapp"
         statusMessage = ""
         chatMessage = "Welcome To Varsh"
       />
+      {/* <Icons/> */}
       <div className='main'>
    <Navbar/>
     <Hero1/>
     </div>
-    {/* <div className="carousal hide-overflow">
-      <Carasoul/>
-      </div> */}
-    <Abouttwo />
-    {/* <Features/> */}
+    {/* <Abouttwo /> */}
 
     <Features/>
+    <div class="timeline">
+  <div class="circle"></div>
+  <ul>
+    <li><em>Our service</em> <strong>Web Development & CRM Software</strong></li>
+    <li><em>Our socialization</em> <strong>Digital Marketing</strong></li>
+    <li><em>Our solution</em> <strong>Business Development support</strong></li>
+    <li><em>Forever</em> <strong>Launch and Support</strong></li>
+  </ul>
+  <div class="circle"></div>
+</div>
     <Process/>
     <Testimonials/>
-    {/* <Heads/> */}
     <Contact/>
     <AboutFooter/>
   </>);

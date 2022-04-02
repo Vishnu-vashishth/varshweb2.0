@@ -1,5 +1,5 @@
 import Tilt from 'react-tilt'
-import {useEffect,useState} from "react"
+import {useEffect} from "react"
 import AOS  from 'aos';
 import 'aos/dist/aos.css'
 
@@ -25,8 +25,6 @@ import {
     AOS.refresh();
     
     }, []);
-
-
     return (
       <Center py={12}>
         <Box  data-aos="zoom-in-down"
@@ -53,7 +51,6 @@ import {
               pos: 'absolute',
               top: 5,
               left: 0,
-              // backgroundImage: `url(${})`,
               filter: 'blur(15px)',
               zIndex: -1,
             }}
@@ -64,7 +61,7 @@ import {
             }}>
             <div className="Tilt-inner">  <Image
               rounded={'lg'}
-              height={250}
+              height={280}
               width={282}
               objectFit={'cover'}
               src={image}

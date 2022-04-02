@@ -2,7 +2,6 @@ import {
   Box,
   chakra,
   Container,
-  Link,
   Stack,
   Text,
   useColorModeValue,
@@ -75,10 +74,9 @@ export default function SmallWithLogoLeft() {
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
-        {/* <Logo /> */}
         <Text style={{fontFamily:"Poppins,sans-serif"}}>© {date} VARSH SERVICES. All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
+          <SocialButton label={'Twitter'} href={'https://twitter.com/VarshServices?t=Tz-Us3n7HYpV1SA_peMfQg&s=08'}>
             <FaTwitter />
           </SocialButton>
           <SocialButton label={'Facebook'} href={'https://www.facebook.com/VarshServices/'}>

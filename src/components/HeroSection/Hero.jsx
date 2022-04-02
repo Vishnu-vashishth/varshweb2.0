@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect';
-import img from "../../images/img.svg";
+import img1 from "../../images/img.svg";
 import {
   Flex,
   Container,
@@ -33,9 +33,6 @@ export default function CallToActionWithIllustration() {
               }}
             />
             {' '}
-            {/* <Text as={'span'} className="color-blue-dark" >
-              best Marketing
-            </Text> */}
           </Heading>
           <Heading className="color-blue-dark"
             fontWeight={400}
@@ -80,6 +77,6 @@ export default function CallToActionWithIllustration() {
 
 export const Illustration = (props: IconProps) => {
   return (
-   <img src = {img}/> 
+   <img src={img1} alt="imag"/> 
   );
 };

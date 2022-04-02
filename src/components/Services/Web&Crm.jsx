@@ -1,6 +1,5 @@
 import React from "react";
-import AboutFooter from "../Aboutus/Aboutfooter";
-import webImage from '../../images/c5.jpg'
+import webImage from '../../images/c6.jpg'
 import {
     chakra,
     Box,

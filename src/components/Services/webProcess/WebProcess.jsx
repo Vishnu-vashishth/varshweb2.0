@@ -1,11 +1,20 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './WebProcess.css'
+import AnimationLottie from '../../../AnimationLottie'
+import lottie5 from "../../../lotties/lottie5.json";
+import lottie9 from "../../../lotties/lottie9.json";
+import lottie10 from "../../../lotties/lottie10.json";
+import lottie11 from "../../../lotties/lottie11.json";
+import lottie12 from "../../../lotties/lottie12.json";
 const WebProcess = () => {
     return (
         <>
             <div>
                 <div className="container">
                         <div className="heading"> <h1>Our Process</h1></div>
+                        <style>{`
+        `}</style>
                     <div className="all-form row mt-30">
                         <div className="col-md-6">
                             <div className="vc_column-inner vc_custom_1543414345971">
@@ -16,30 +25,7 @@ const WebProcess = () => {
                                     >
                                         <div className="services_wrapper">
                                             <div className="services_icon_wrapper">
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,167,5,0.3))",
-                                                            fill: "#ffa705"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,86,0,0.3))",
-                                                            fill: "#ff5600"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
+                                            <AnimationLottie name={lottie5} height={120} width={120}/>
                                                 <i className="services_icon flaticon-analytics" />
                                             </div>
                                             <div className="services_content">
@@ -50,12 +36,7 @@ const WebProcess = () => {
                                                     &amp; audience to develop the best possible strategy for further project management.
                                                 </div>
                                             </div>
-                                            <a
-                                                className="services_button button-read-more"
-                                                href="/aboutus"
-                                            >
-                                                Read More
-                                            </a>
+                                            <NavLink exact="true" to="/about" className="services_button button-read-more">Read More</NavLink>
                                         </div>
                                     </div>
                                     <div className="seofy_module_spacing">
@@ -80,30 +61,7 @@ const WebProcess = () => {
                                     >
                                         <div className="services_wrapper">
                                             <div className="services_icon_wrapper">
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(82,172,250,0.3))",
-                                                            fill: "#52acfa"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(50,36,233,0.3))",
-                                                            fill: "#3224e9"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
+                                            <AnimationLottie name={lottie9} height={110} width={110}/>
                                                 <i className="services_icon flaticon-project" />
                                             </div>
                                             <div className="services_content">
@@ -114,12 +72,7 @@ const WebProcess = () => {
                                                     we move on to creating a mock-up to make our client  &amp;understand the idea in a better way possible.
                                                 </div>
                                             </div>
-                                            <a
-                                                className="services_button button-read-more"
-                                                href="http://seofy.webgeniuslab.net/our-team/"
-                                            >
-                                                Read More
-                                            </a>
+                                            <NavLink exact="true" to="/about" className="services_button button-read-more">Read More</NavLink>
                                         </div>
                                     </div>
                                     <div className="seofy_module_spacing">
@@ -144,30 +97,7 @@ const WebProcess = () => {
                                     >
                                         <div className="services_wrapper">
                                             <div className="services_icon_wrapper">
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,167,5,0.3))",
-                                                            fill: "#ffa705"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,86,0,0.3))",
-                                                            fill: "#ff5600"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
+                                                <AnimationLottie name={lottie10} height={120} width={120}/>
                                                 <i className="services_icon flaticon-analytics" />
                                             </div>
                                             <div className="services_content">
@@ -179,12 +109,7 @@ const WebProcess = () => {
 
                                                 </div>
                                             </div>
-                                            <a
-                                                className="services_button button-read-more"
-                                                href="/aboutus"
-                                            >
-                                                Read More
-                                            </a>
+                                            <NavLink exact="true" to="/about" className="services_button button-read-more">Read More</NavLink>
                                         </div>
                                     </div>
                                     <div className="seofy_module_spacing">
@@ -209,31 +134,7 @@ const WebProcess = () => {
                                     >
                                         <div className="services_wrapper">
                                             <div className="services_icon_wrapper">
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter:
-                                                                "drop-shadow(4px 5px 4px rgba(105,233,242,0.3))",
-                                                            fill: "#69e9f2"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(18,175,254,0.3))",
-                                                            fill: "#12affe"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
+                                            <AnimationLottie name={lottie11} height={120} width={120}/>
                                                 <i className="services_icon flaticon-key-1" />
                                             </div>
                                             <div className="services_content">
@@ -242,12 +143,7 @@ const WebProcess = () => {
                                                 We do not just end up with the development &amp;  part but do lots of continuous testing until and unless our client is completely satisfied with the product.
                                                 </div>
                                             </div>
-                                            <a
-                                                className="services_button button-read-more"
-                                                href="/aboutus"
-                                            >
-                                                Read More
-                                            </a>
+                                            <NavLink exact="true" to="/about" className="services_button button-read-more">Read More</NavLink>
                                         </div>
                                     </div>
                                     <div className="seofy_module_spacing">
@@ -270,30 +166,7 @@ const WebProcess = () => {
                                     >
                                         <div className="services_wrapper">
                                             <div className="services_icon_wrapper">
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,167,5,0.3))",
-                                                            fill: "#ffa705"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
-                                                <div className="seofy_hexagon">
-                                                    <svg
-                                                        style={{
-                                                            filter: "drop-shadow(4px 5px 4px rgba(255,86,0,0.3))",
-                                                            fill: "#ff5600"
-                                                        }}
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 177.4 197.4"
-                                                    >
-                                                        <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z" />
-                                                    </svg>
-                                                </div>
+                                            <AnimationLottie name={lottie12} height={120} width={120}/>
                                                 <i className="services_icon flaticon-analytics" />
                                             </div>
                                             <div className="services_content">
@@ -304,12 +177,17 @@ const WebProcess = () => {
                                                     &amp;  Although our work doesn’t end up here, even after the solution deployment we provide our client with a determined customer &amp;support team to assist you 24/7 with any maintenance or support requirements.
                                                 </div>
                                             </div>
-                                            <a
-                                                className="services_button button-read-more"
-                                                href="/aboutus"
-                                            >
-                                                Read More
-                                            </a>
+                                            <NavLink exact="true" to="/about" className="services_button button-read-more">Read More</NavLink>
+                                            <style>{`
+                                            .services_button{
+                                                background: #aaa;
+                                                padding:10px;
+                                                border-radius: 30px;
+                                                color: #111;
+                                                font-weight: 600;
+                                                font-style: normal;
+                                            }
+                                            `}</style>
                                         </div>
                                     </div>
                                     <div className="seofy_module_spacing">
@@ -327,6 +205,7 @@ const WebProcess = () => {
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }

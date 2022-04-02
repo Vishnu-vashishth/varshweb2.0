@@ -51,7 +51,9 @@ export default function gridListWithCTA() {
           <Flex>
           
             <chakra.p>
+            <span style={{fontSize:"18px"}}>
             We are well-versed in IT solutions ,WEB development & CRM softwares, Lead/Sales/Revenue Generation . We work with just about any technology that a small business would encounter. Varsh use this expertise to help customers with small to mid-sized projects. 
+            </span>
             </chakra.p>
           </Flex>
         </GridItem>

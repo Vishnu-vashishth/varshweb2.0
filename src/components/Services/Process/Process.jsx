@@ -1,6 +1,5 @@
 import React from 'react'
 import './Process.css'
-import AboutFooter from "../../Aboutus/Aboutfooter";
 const Process = () => {
   return (
     <>
@@ -59,7 +58,7 @@ const Process = () => {
             <div className="content">
               <div className="icon iconMap" />
               <h2>Implementation</h2>
-              <p>After processing the solution it's time to implement it and obtain the real-time analysis of the same. We contribute most of the time to this step to make you familiar with the process as well as provide the analysis report. Even after the implementation, we are here to help you with the maintenance part whenever you are in need.</p>
+              <p>After processing the solution it's time to implement it and obtain real-time analysis of the same. We contribute to make you familiar with the process and provide analysis report.</p>
             </div>
           </li>
           
@@ -73,7 +72,7 @@ const Process = () => {
             <div className="content">
               <div className="icon iconPeace" />
               <h2>Succeed</h2>
-              <p>At last we succeed with you</p>
+              <p>Even after the implementation, we are here to help you with the maintenance part whenever you are in need.At last we succeed with you</p>
             </div>
           </li>
         </ul>

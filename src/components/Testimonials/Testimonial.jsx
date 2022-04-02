@@ -5,14 +5,11 @@ import {
   Avatar,
   Box,
   chakra,
-  Container,
   Flex,
   Icon,
   SimpleGrid,
   useColorModeValue,
 } from '@chakra-ui/react';
-
-// import img1 from "../../images/kalapana foods.jpg"
 const testimonials = [
   {
     id: 0,
@@ -72,7 +69,6 @@ function TestmonialCard(props: TestimonialCardProps) {
     AOS.init({
    offset: 100,
    duration: 600,
-   // easing: 'ease-in-sine',
    delay:50,
   });
   AOS.refresh();
@@ -120,7 +116,6 @@ function TestmonialCard(props: TestimonialCardProps) {
         textAlign={'left'}
         justifyContent={'space-between'}>
         <chakra.p
-        //   fontFamily={'Inter'}
           fontWeight={'medium'}
           fontSize={'15px'}
           pb={4}>
@@ -129,7 +124,6 @@ function TestmonialCard(props: TestimonialCardProps) {
         <chakra.p  fontWeight={'bold'} fontSize={14}>
           {name}
           <chakra.span
-            // fontFamily={'Inter'}
             fontWeight={'medium'}
             color={'gray.500'}>
             {' '}
@@ -158,7 +152,6 @@ export default function GridBlurredBackdrop() {
       width={'full'}>
       <Box width={{ base: 'full', sm: 'lg', lg: 'xl' }} margin={'auto'}>
         <chakra.h3
-        //   fontFamily={'Work Sans'}
           fontWeight={'bold'}
           fontSize={20}
           textTransform={'uppercase'}
@@ -168,7 +161,6 @@ export default function GridBlurredBackdrop() {
         <chakra.h1
           py={5}
           fontSize={48}
-        //   fontFamily={'Work Sans'}
           fontWeight={'bold'}
           color={useColorModeValue('gray.700', 'gray.50')}>
           You're in good company
@@ -176,7 +168,6 @@ export default function GridBlurredBackdrop() {
         <chakra.h2
           margin={'auto'}
           width={'70%'}
-        //   fontFamily={'Inter'}
           fontWeight={'medium'}
           color={useColorModeValue('gray.500', 'gray.400')}>
           See why over{' '}
