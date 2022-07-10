@@ -7,7 +7,7 @@ import Aboutfooter from './Aboutfooter'
 import Aboutthree from './Aboutthree'
 import Carasoul from './Carasoul'
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import WhatsappImg from '../../images/project manager.jpg'
+import WhatsappImg from '../../images/managing director.jpg'
 import { Heads } from '../OurHeads/Heads';
 import AboutReal from './AboutReal'
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
   return (
     <>
       <FloatingWhatsApp
-        phoneNumber="+916387681558"
+        phoneNumber="+919264970728"
         accountName="Varsh Services"
         allowClickAway
         notification

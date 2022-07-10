@@ -5,7 +5,7 @@ import Testimonials from './Testimonials/Testimonial'
 import Features from './Features/Feature'
 import Contact from './Contactus/Contact'
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import WhatsappImg from '../images/project manager.jpg'
+import WhatsappImg from '../images/managing director.jpg'
 import Abouttwo from './Aboutus/Abouttwo'
 import AboutFooter from './Aboutus/Aboutfooter';
 import Process from './Services/Process/Process';
@@ -14,7 +14,7 @@ import "../App.css";
 function Main() {
   return (<>
   <FloatingWhatsApp
-        phoneNumber="+916387681558"
+        phoneNumber="+919264970728"
         accountName="Varsh Services"
         allowClickAway
         notification

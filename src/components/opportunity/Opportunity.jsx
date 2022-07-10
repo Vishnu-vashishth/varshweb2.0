@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react';
 import React from "react";
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import WhatsappImg from '../../images/project manager.jpg';
+import WhatsappImg from '../../images/managing director.jpg';
 import { Pane, FileUploader, FileCard } from 'evergreen-ui'
 import Footer from '../Footer/Footer';
 import {send} from "emailjs-com";
